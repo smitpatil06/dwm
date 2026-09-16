@@ -110,7 +110,7 @@ static const Key keys[] = {
 	/* Application */
 	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,	                XK_Return, spawn,          {.v = termcmd } },
-	{ MODKEY|ShiftMask,	        XK_e,      spawn,     	   SHCMD("dolphin") },
+	{ MODKEY|ShiftMask,	        XK_e,      spawn,     	   SHCMD("thunar") },
 	{ MODKEY|ShiftMask,	        XK_d,      spawn,     	   SHCMD("discord") },
 	{ MODKEY|ShiftMask,	        XK_f,      spawn,      	   SHCMD("firefox") },
 	{ MODKEY|ShiftMask,	        XK_c,      spawn,      	   SHCMD("chromium") },
